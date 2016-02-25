@@ -58,7 +58,7 @@
 
     (vitalsByCode['55284-4']||[]).forEach(function(v){
 
-      var components = v.component;
+      var components = v.contained;
 
       var diastolicObs = components.find(function(component){
       	return component.code.coding.find(function(coding) {
