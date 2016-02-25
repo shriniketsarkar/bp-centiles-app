@@ -115,7 +115,7 @@
   };
 
   function getObservations(){
-        return smart.patient.api.fetchAll({type: "Observation", query: {code: {$or: ['http://loinc.org|8302-2','http://loinc.org|55284-4']}}});
+        return smart.patient.api.fetchAll({type: "Observation", query: {code: {$or: ['http://loinc.org|8302-2','http://loinc.org|55284-4','http://loinc.org|8462-4','http://loinc.org|8480-6']}}});
         
   };
   
