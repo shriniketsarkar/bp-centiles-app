@@ -89,8 +89,8 @@
          }
       }
       
-      if (v.encounter){
-           var encounter = cachedLink(encounters, v.encounter);
+      if (systolicObs.encounter){
+           var encounter = cachedLink(encounters, systolicObs.encounter);
            var encounter_type = encounter.class;
            if (encounter_type === "outpatient") {
                encounter_type = "ambulatory";
