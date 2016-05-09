@@ -74,7 +74,7 @@
       var diastolic = diastolicObs.valueQuantity.value;
       var extensions = v.extension;
       var obj = {
-        vital_date: systolicObs.effectiveDateTime,
+        vital_date: v.effectiveDateTime,
         systolic: systolic,
         diastolic: diastolic
       };
